@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main ()
-{
+int main (){
     int awal, akhir, a=0, b=1, c=0, batas=0, flag=0;
     system("cls");
     printf("Input batas awal\t: ");
@@ -12,20 +11,14 @@ int main ()
     printf("Bilangan Fibonacci diantara %d dan %d adalah: ",awal,akhir);
 
     if (a >= awal)
-    {
         printf("%d ",a);
-    }
     if (b >= awal)
-    {
         printf("%d ",b);
-    }
 
-    while (batas<=akhir)
-    {
+    while (batas<=akhir){
         c=a+b;
         
-        if (c >= awal && c <= akhir)
-        {
+        if (c >= awal && c <= akhir){
             printf("%d ",c);
             flag += 1;
         }
